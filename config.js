@@ -49,7 +49,7 @@ module.exports = {
     REJECT_CALLS: convertToBool(process.env.REJECT_CALLS) || false,
     PMB: process.env.PMB || '_Personal messages not allowed, BLOCKED!_',
     READ_COMMAND: convertToBool(process.env.READ_COMMAND) || true,
-    SESSION: (process.env.SESSION || process.env.SESSION_ID || '').trim() || 'Raganork~2f43d9bffc7d1905d3c1741d897bd3d2:377665327834724b6f6d6f3d',
+    SESSION: (process.env.SESSION || process.env.SESSION_ID || 'Raganork~2f43d9bffc7d1905d3c1741d897bd3d2:377665327834724b6f6d6f3d').trim() || 'Raganork~2f43d9bffc7d1905d3c1741d897bd3d2:377665327834724b6f6d6f3d',
     IMGBB_KEY: ["76a050f031972d9f27e329d767dd988f", "deb80cd12ababea1c9b9a8ad6ce3fab2", "78c84c62b32a88e86daf87dd509a657a"],
     RG: process.env.RG || '923328025808-1632403322@g.us,120363116963909366@g.us',
     BOT_INFO: process.env.BOT_INFO || 'Nightmare;Bot;0;https://i.ibb.co/GJBtWkR/Ephoto360-com-166f82b16bd615.jpg;https://chat.whatsapp.com/ECTeHJ3M3zOI4vQkuQC5PH',
